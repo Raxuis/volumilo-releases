@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.19.1",
-  "build": 35,
+  "version": "0.20.0",
+  "build": 36,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "A clearer macOS installer with a curved turquoise arrow and bilingual instructions.",
-    "fr": "Un installateur macOS plus clair avec une flèche turquoise et des instructions bilingues."
+    "en": "Check for updates from Volumilo or Settings → Updates. Read release notes and open the public DMG download in your browser. Checks are manual, without a GitHub account. Installation remains manual. Public downloads, private source.",
+    "fr": "Recherchez les mises à jour depuis Volumilo ou Réglages → Mises à jour. Consultez les nouveautés et ouvrez le téléchargement public du DMG dans votre navigateur. Vérification à la demande, sans compte GitHub. Installation manuelle. Téléchargements publics, code privé."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.19.1",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.19.1/Volumilo.dmg",
-  "sha256": "765181f90f75849737dd5c4869a7ba3ac5d37f1139b8b04db6c9da95dd1efaf7"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.20.0",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.20.0/Volumilo.dmg",
+  "sha256": "dac3364249313d90a5c3c4b3e6ecdcf0af3e957a1d3f4604320b66e52e9b0a92"
 }
