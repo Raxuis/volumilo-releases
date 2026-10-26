@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "version": "0.19.1",
+  "build": 35,
+  "minimum_macos": "14.0",
+  "architectures": [
+    "arm64"
+  ],
+  "notes": {
+    "en": "A clearer macOS installer with a curved turquoise arrow and bilingual instructions.",
+    "fr": "Un installateur macOS plus clair avec une flèche turquoise et des instructions bilingues."
+  },
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.19.1",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.19.1/Volumilo.dmg",
+  "sha256": "765181f90f75849737dd5c4869a7ba3ac5d37f1139b8b04db6c9da95dd1efaf7"
+}
