@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.21.1",
-  "build": 38,
+  "version": "0.22.0",
+  "build": 39,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "A compact horizontal icon-only row for Applications, cloud folders and folder scanning. Hover labels and accessibility names remain available. Settings stays separate.",
-    "fr": "Les raccourcis Applications, dossiers cloud et analyse de dossier sont réunis sur une rangée d’icônes, avec libellés au survol et noms accessibles. Les réglages restent séparés."
+    "en": "What grew? adds a root-only summary and four change filters. Developer projects offers a separate explicit folder analysis with dependency, build and cache categories, project grouping and reconstruction explanations. Results remain in memory during the session.",
+    "fr": "Qu’est-ce qui a grossi ? ajoute un résumé de la racine et quatre filtres de variation. Projets développeur propose une analyse ciblée indépendante, avec catégories dépendances, compilation et caches, regroupement par projet et explications. Les résultats restent en mémoire pendant la session."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.21.1",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.21.1/Volumilo.dmg",
-  "sha256": "309350da9c94b3328224fb3db24b813c0bf5a0446f06729686e6dbd37cd9a75a"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.22.0",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.22.0/Volumilo.dmg",
+  "sha256": "35d4f889c0ffddfe291e8dad2d4c4b41a520a6d98206a6a04584d70e9ff9c02f"
 }
