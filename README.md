@@ -6,6 +6,8 @@
 
 Volumilo aide à comprendre l’espace occupé sur votre Mac et à préparer un nettoyage manuel : graphique interactif, recherche, doublons, outils pour les projets développeur et nettoyage guidé avec avertissements.
 
+**Nouveau : stockage par application.** Ouvrir Applications…, choisir une app puis lancer son analyse ciblée. Application, caches et données sont distingués ; associations incertaines et couverture partielle sont signalées. Vue en lecture seule.
+
 **[Télécharger la dernière version](https://github.com/Raxuis/volumilo-releases/releases/latest)**
 
 Apple Silicon, macOS 14 minimum pour les versions actuelles. Ouvrir le DMG, glisser Volumilo vers Applications, éjecter l’image et lancer la copie installée. Quittez l’ancienne app avant de la remplacer : les analyses de la session ne sont pas conservées après fermeture.
@@ -17,6 +19,8 @@ Ce dépôt public contient uniquement le catalogue et les fichiers de distributi
 ## English
 
 Volumilo helps you understand storage on your Mac and prepare a manual cleanup: interactive chart, search, duplicate review, developer project tools and guided cleanup with warnings.
+
+**New: per-application storage.** Open Applications…, choose an app, then run its targeted analysis. App/cache/data allocations are separated; uncertain associations and partial coverage are explicit. Read-only view.
 
 **[Download the latest release](https://github.com/Raxuis/volumilo-releases/releases/latest)**
 

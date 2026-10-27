@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.20.0",
-  "build": 36,
+  "version": "0.21.0",
+  "build": 37,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "Check for updates from Volumilo or Settings → Updates. Read release notes and open the public DMG download in your browser. Checks are manual, without a GitHub account. Installation remains manual. Public downloads, private source.",
-    "fr": "Recherchez les mises à jour depuis Volumilo ou Réglages → Mises à jour. Consultez les nouveautés et ouvrez le téléchargement public du DMG dans votre navigateur. Vérification à la demande, sans compte GitHub. Installation manuelle. Téléchargements publics, code privé."
+    "en": "Independent Applications view with targeted app/cache/data measurement, partial coverage, duration and session-only profiles. Name-based possible associations are off by default and counted separately. Read-only; shared/vendor-specific folders are not attributed automatically.",
+    "fr": "Vue Applications indépendante : analyse ciblée de l’app, des caches et des données, couverture partielle, durée et profils conservés pendant la session. Correspondances possibles par nom désactivées par défaut et mesurées séparément. Lecture seule ; dossiers partagés et propres aux éditeurs non attribués automatiquement."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.20.0",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.20.0/Volumilo.dmg",
-  "sha256": "dac3364249313d90a5c3c4b3e6ecdcf0af3e957a1d3f4604320b66e52e9b0a92"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.21.0",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.21.0/Volumilo.dmg",
+  "sha256": "913a9f57c185e38ee34d47579134816f70f88b61fc2f402d81a99fa8293f9e5d"
 }
