@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.21.0",
-  "build": 37,
+  "version": "0.21.1",
+  "build": 38,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "Independent Applications view with targeted app/cache/data measurement, partial coverage, duration and session-only profiles. Name-based possible associations are off by default and counted separately. Read-only; shared/vendor-specific folders are not attributed automatically.",
-    "fr": "Vue Applications indépendante : analyse ciblée de l’app, des caches et des données, couverture partielle, durée et profils conservés pendant la session. Correspondances possibles par nom désactivées par défaut et mesurées séparément. Lecture seule ; dossiers partagés et propres aux éditeurs non attribués automatiquement."
+    "en": "A compact horizontal icon-only row for Applications, cloud folders and folder scanning. Hover labels and accessibility names remain available. Settings stays separate.",
+    "fr": "Les raccourcis Applications, dossiers cloud et analyse de dossier sont réunis sur une rangée d’icônes, avec libellés au survol et noms accessibles. Les réglages restent séparés."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.21.0",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.21.0/Volumilo.dmg",
-  "sha256": "913a9f57c185e38ee34d47579134816f70f88b61fc2f402d81a99fa8293f9e5d"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.21.1",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.21.1/Volumilo.dmg",
+  "sha256": "309350da9c94b3328224fb3db24b813c0bf5a0446f06729686e6dbd37cd9a75a"
 }
