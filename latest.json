@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.22.0",
-  "build": 39,
+  "version": "0.23.0",
+  "build": 40,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "What grew? adds a root-only summary and four change filters. Developer projects offers a separate explicit folder analysis with dependency, build and cache categories, project grouping and reconstruction explanations. Results remain in memory during the session.",
-    "fr": "Qu’est-ce qui a grossi ? ajoute un résumé de la racine et quatre filtres de variation. Projets développeur propose une analyse ciblée indépendante, avec catégories dépendances, compilation et caches, regroupement par projet et explications. Les résultats restent en mémoire pendant la session."
+    "en": "Monitor up to five chosen folders with size/growth thresholds, adjustable intervals and session comparisons. Folder settings are saved, measurements are not. Optional rate-limited notifications and a centered empty state.",
+    "fr": "Surveillance de cinq dossiers avec seuils de taille/hausse, fréquence réglable et comparaison de session. Les réglages sont mémorisés, les mesures ne le sont pas. Notifications optionnelles limitées et état vide centré."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.22.0",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.22.0/Volumilo.dmg",
-  "sha256": "35d4f889c0ffddfe291e8dad2d4c4b41a520a6d98206a6a04584d70e9ff9c02f"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.23.0",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.23.0/Volumilo.dmg",
+  "sha256": "d54ec01f1b8fdca0274c057c94f6d6bbe9d85eee8fd140d6e3327b32ddc9c2cf"
 }
