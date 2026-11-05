@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.25.0",
-  "build": 42,
+  "version": "0.26.0",
+  "build": 43,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "New task-oriented welcome view and guarded per-app cache cleanup. Analyse an app, review conventional user caches, select manually and confirm a separate move to Trash. Running apps, ambiguous identifiers, incomplete reads and changed paths block removal. Measurements can be explicitly refreshed without an automatic full-disk rescan.",
-    "fr": "Nouvel accueil orienté besoins et revue des caches par application. Analyser une app, examiner ses caches utilisateur conventionnels, sélectionner manuellement puis confirmer la Corbeille. Application active, identifiant ambigu, lecture incomplète et chemins modifiés bloquent le retrait. Actualisation explicite des mesures, sans rescan complet automatique."
+    "en": "Find files on saved external disk catalogues, even while disconnected. Explicit local metadata only; dated observations and fresh native validation for current locations.",
+    "fr": "Retrouvez vos fichiers dans les catalogues de disques externes, même déconnectés. Métadonnées locales enregistrées volontairement ; observations datées et vérification native des emplacements actuels."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.25.0",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.25.0/Volumilo.dmg",
-  "sha256": "a9766b7ea10a2017246dab134d896605140eca009c9b5d4800859a0aace2918d"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.26.0",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.26.0/Volumilo.dmg",
+  "sha256": "9bfc1e71301e9233dfb107bf9348749d5fbc1e6fc957c1bd38e886198958458b"
 }
