@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.24.0",
-  "build": 41,
+  "version": "0.25.0",
+  "build": 42,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "Verified external transfer with SHA-256 read-back, metadata checks and manual resume after restart or reconnection. Original-to-Trash review is separate. Ordinary local files/folders only; symbolic links, application packages, managed libraries and cloud locations are unsupported.",
-    "fr": "Transfert vérifié avec relecture SHA-256, contrôle des métadonnées et reprise manuelle après relance ou reconnexion. Revue séparée avant Corbeille. Fichiers/dossiers locaux ordinaires uniquement ; liens symboliques, applications, bibliothèques gérées et cloud non pris en charge."
+    "en": "New task-oriented welcome view and guarded per-app cache cleanup. Analyse an app, review conventional user caches, select manually and confirm a separate move to Trash. Running apps, ambiguous identifiers, incomplete reads and changed paths block removal. Measurements can be explicitly refreshed without an automatic full-disk rescan.",
+    "fr": "Nouvel accueil orienté besoins et revue des caches par application. Analyser une app, examiner ses caches utilisateur conventionnels, sélectionner manuellement puis confirmer la Corbeille. Application active, identifiant ambigu, lecture incomplète et chemins modifiés bloquent le retrait. Actualisation explicite des mesures, sans rescan complet automatique."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.24.0",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.24.0/Volumilo.dmg",
-  "sha256": "6d15f86fac37fcca9974dee362d50d646d12a259dee7d7d6269011142ba3bad7"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.25.0",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.25.0/Volumilo.dmg",
+  "sha256": "a9766b7ea10a2017246dab134d896605140eca009c9b5d4800859a0aace2918d"
 }

@@ -6,7 +6,7 @@
 
 Volumilo aide à comprendre l’espace occupé sur votre Mac et à préparer un nettoyage manuel : graphique interactif, recherche, doublons, outils pour les projets développeur et nettoyage guidé avec avertissements.
 
-**Nouveau : stockage par application.** Ouvrir Applications…, choisir une app puis lancer son analyse ciblée. Application, caches et données sont distingués ; associations incertaines et couverture partielle sont signalées. Vue en lecture seule.
+**Nouveau : accueil orienté besoins et revue des caches par application.** Trois accès directs pour comprendre un disque plein, mesurer une application ou préparer un transfert externe vérifié. Après l’analyse d’une app, examinez ses caches utilisateur conventionnels, sélectionnez les éléments et confirmez séparément la Corbeille. Application active, associations ambiguës, lectures incomplètes ou chemins modifiés bloquent le retrait. Documents, réglages et application restent en lecture seule.
 
 **[Télécharger la dernière version](https://github.com/Raxuis/volumilo-releases/releases/latest)**
 
@@ -20,7 +20,7 @@ Ce dépôt public contient uniquement le catalogue et les fichiers de distributi
 
 Volumilo helps you understand storage on your Mac and prepare a manual cleanup: interactive chart, search, duplicate review, developer project tools and guided cleanup with warnings.
 
-**New: per-application storage.** Open Applications…, choose an app, then run its targeted analysis. App/cache/data allocations are separated; uncertain associations and partial coverage are explicit. Read-only view.
+**New: task-oriented welcome and per-app cache review.** Three starting points for a full disk, application storage and verified external transfer. After analysing an app, review conventional user caches, select items and confirm a separate move to Trash. Running apps, ambiguous associations, incomplete reads or changed paths block removal. Documents, settings and application bundles remain read-only.
 
 **[Download the latest release](https://github.com/Raxuis/volumilo-releases/releases/latest)**
 
