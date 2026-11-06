@@ -32,7 +32,7 @@ Choose files and a destination folder on a different external volume. Volumilo c
 
 ![Select transfer sources and destination without starting a copy](media/transfer-en.png)
 
-## Watch the three uses in 40 seconds
+## Watch the three uses in 20 seconds
 
 [![Watch the Volumilo demonstration](media/demo-poster-en.png)](media/volumilo-demo-en.mp4)
 

@@ -32,7 +32,7 @@ Choisissez les fichiers et un dossier sur un autre volume externe. Volumilo copi
 
 ![Choix des sources et de la destination pour un transfert, sans copie lancée](media/transfer-fr.png)
 
-## Voir les trois usages en 40 secondes
+## Voir les trois usages en 20 secondes
 
 [![Voir la démonstration de Volumilo](media/demo-poster-fr.png)](media/volumilo-demo-fr.mp4)
 
