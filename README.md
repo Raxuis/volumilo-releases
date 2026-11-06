@@ -8,6 +8,8 @@ Volumilo aide à comprendre l’espace occupé sur votre Mac et à préparer un 
 
 **Nouveau : catalogues de disques externes hors ligne.** Après l’analyse d’un disque entier, enregistrez volontairement ses noms, chemins et métadonnées pour retrouver un fichier même sans le support ou après relance. Les observations sont datées et restent locales ; aucun contenu de fichier n’est conservé. Les analyses ordinaires restent limitées à la session.
 
+La version 0.26.1 améliore la présentation des catalogues : filtres plus lisibles, limite des résultats visible et pluriels corrigés.
+
 **Accueil orienté besoins et revue des caches par application.** Trois accès directs pour comprendre un disque plein, mesurer une application ou préparer un transfert externe vérifié. Après l’analyse d’une app, examinez ses caches utilisateur conventionnels, sélectionnez les éléments et confirmez séparément la Corbeille. Application active, associations ambiguës, lectures incomplètes ou chemins modifiés bloquent le retrait. Documents, réglages et application restent en lecture seule.
 
 **[Télécharger la dernière version](https://github.com/Raxuis/volumilo-releases/releases/latest)**
@@ -23,6 +25,8 @@ Ce dépôt public contient uniquement le catalogue et les fichiers de distributi
 Volumilo helps you understand storage on your Mac and prepare a manual cleanup: interactive chart, search, duplicate review, developer project tools and guided cleanup with warnings.
 
 **New: offline external disk catalogues.** After scanning a whole disk, explicitly save its names, paths and metadata to locate files while disconnected or after restart. Observations are dated and local; no file contents are retained. Ordinary scans remain session-only.
+
+Version 0.26.1 improves catalogue presentation: clearer filters, a visible result bound and corrected plural rules.
 
 **Task-oriented welcome and per-app cache review.** Three starting points for a full disk, application storage and verified external transfer. After analysing an app, review conventional user caches, select items and confirm a separate move to Trash. Running apps, ambiguous associations, incomplete reads or changed paths block removal. Documents, settings and application bundles remain read-only.
 
