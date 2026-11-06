@@ -1,39 +1,57 @@
-# Volumilo — Downloads
+# Volumilo
 
-[Français](#français) · [English](#english)
+<img src="media/volumilo-icon.png" width="88" alt="Icône Volumilo">
 
-## Français
+**Comprenez ce qui prend de la place. Choisissez quoi nettoyer ou déplacer.**
 
-Volumilo aide à comprendre l’espace occupé sur votre Mac et à préparer un nettoyage manuel : graphique interactif, recherche, doublons, outils pour les projets développeur et nettoyage guidé avec avertissements.
+Une app macOS native pour explorer votre stockage, retrouver un fichier dans le catalogue d’un disque débranché et préparer une copie vérifiée vers un disque externe.
 
-**Nouveau : catalogues de disques externes hors ligne.** Après l’analyse d’un disque entier, enregistrez volontairement ses noms, chemins et métadonnées pour retrouver un fichier même sans le support ou après relance. Les observations sont datées et restent locales ; aucun contenu de fichier n’est conservé. Les analyses ordinaires restent limitées à la session.
+**Gratuit · Apple Silicon · macOS 14+ · Français et anglais**
 
-La version 0.26.1 améliore la présentation des catalogues : filtres plus lisibles, limite des résultats visible et pluriels corrigés.
+**[Télécharger Volumilo](https://github.com/Raxuis/volumilo-releases/releases/latest)** · [Bien démarrer](QUICKSTART.fr.md) · [English](README.en.md)
 
-**Accueil orienté besoins et revue des caches par application.** Trois accès directs pour comprendre un disque plein, mesurer une application ou préparer un transfert externe vérifié. Après l’analyse d’une app, examinez ses caches utilisateur conventionnels, sélectionnez les éléments et confirmez séparément la Corbeille. Application active, associations ambiguës, lectures incomplètes ou chemins modifiés bloquent le retrait. Documents, réglages et application restent en lecture seule.
+Version en développement, signée localement et non notariée par Apple : macOS peut en bloquer l’ouverture. [Installation et vérification](QUICKSTART.fr.md#installer-volumilo).
 
-**[Télécharger la dernière version](https://github.com/Raxuis/volumilo-releases/releases/latest)**
+![Explorer le stockage avec Volumilo, sur des fichiers de démonstration](media/analysis-fr.png)
 
-Apple Silicon, macOS 14 minimum pour les versions actuelles. Ouvrir le DMG, glisser Volumilo vers Applications, éjecter l’image et lancer la copie installée. Quittez l’ancienne app avant de la remplacer : les analyses de la session ne sont pas conservées après fermeture.
+## Trois façons de vous aider
 
-Les versions actuelles portent une signature locale ad-hoc et ne sont pas notariées par Apple. macOS peut bloquer leur ouverture. Vérifiez l’origine et les empreintes SHA-256 disponibles avec chaque version avant d’approuver manuellement l’ouverture dans les réglages de sécurité macOS. Ce dépôt ne propose aucun outil de contournement et n’installe rien automatiquement.
+### Comprendre un disque qui se remplit
 
-Ce dépôt public contient uniquement le catalogue et les fichiers de distribution. **Le code source reste privé.** L’application est proposée gratuitement à ce stade du projet ; cela ne constitue pas une licence de réutilisation du code.
+Analysez le disque ou le dossier de votre choix. Explorez le graphique circulaire et la liste des fichiers, ouvrez les dossiers et préparez une sélection à examiner avant suppression. Le glisser-déposer ajoute à la sélection ; il ne supprime rien.
 
-## English
+### Retrouver un fichier sans rebrancher tous vos disques
 
-Volumilo helps you understand storage on your Mac and prepare a manual cleanup: interactive chart, search, duplicate review, developer project tools and guided cleanup with warnings.
+Après l’analyse d’un disque externe entier, enregistrez volontairement son catalogue. Recherchez ensuite noms, chemins et extensions, même après déconnexion ou relance. Les résultats conservent leur date et leur couverture : ce sont des observations passées, pas une garantie que le fichier existe encore.
 
-**New: offline external disk catalogues.** After scanning a whole disk, explicitly save its names, paths and metadata to locate files while disconnected or after restart. Observations are dated and local; no file contents are retained. Ordinary scans remain session-only.
+![Recherche dans un catalogue de disque déconnecté, avec des données fictives](media/catalogue-fr.png)
 
-Version 0.26.1 improves catalogue presentation: clearer filters, a visible result bound and corrected plural rules.
+### Préparer un transfert avant de toucher aux originaux
 
-**Task-oriented welcome and per-app cache review.** Three starting points for a full disk, application storage and verified external transfer. After analysing an app, review conventional user caches, select items and confirm a separate move to Trash. Running apps, ambiguous associations, incomplete reads or changed paths block removal. Documents, settings and application bundles remain read-only.
+Choisissez les fichiers et un dossier sur un autre volume externe. Volumilo copie puis relit le contenu pour le vérifier. La mise à la Corbeille des originaux reste une décision séparée, avec de nouveaux contrôles. La reprise après interruption est volontaire.
 
-**[Download the latest release](https://github.com/Raxuis/volumilo-releases/releases/latest)**
+![Choix des sources et de la destination pour un transfert, sans copie lancée](media/transfer-fr.png)
 
-Current releases require Apple Silicon and macOS 14 or later. Open the DMG, drag Volumilo to Applications, eject the image and launch the installed copy. Quit the old app before replacing it; analyses kept during the session are lost on quit.
+## Voir les trois usages en 40 secondes
 
-Current builds are locally ad-hoc signed and not notarized by Apple. macOS may block opening them. Verify their origin and the SHA-256 checksums provided with each release before manually approving opening in macOS security settings. This repository provides no security bypass or automatic installer.
+[![Voir la démonstration de Volumilo](media/demo-poster-fr.png)](media/volumilo-demo-fr.mp4)
 
-This public repository contains only the catalogue and distribution files. **Source code remains private.** The application is available free of charge at this stage; this is not a source-code reuse license.
+**[Lire la vidéo française](media/volumilo-demo-fr.mp4)** · [English video](media/volumilo-demo-en.mp4)
+
+Démonstration montée à partir de captures de la vraie interface, avec des fichiers et volumes créés pour l’exemple. Sans son. La scène de transfert montre sa préparation, pas une copie achevée. Aucun fichier personnel n’est montré.
+
+## Aussi disponible
+
+- **Stockage par application** : analyser une app et examiner ses caches associés.
+- **Nettoyage guidé et doublons** : comprendre les suggestions et choisir les éléments à examiner.
+- **Vue développeur** : repérer les dossiers générés reconnus et leurs conditions de reconstruction.
+- **Qu’est-ce qui a grossi ?** et **surveillance de dossiers** : comparer des observations et suivre les dossiers choisis.
+- **Barre de menus** : consulter l’espace libre sans lancer d’analyse.
+
+## Garder le contrôle
+
+Les analyses ordinaires restent en mémoire pendant la session. Les catalogues que vous choisissez d’enregistrer et les journaux de transfert restent sur ce Mac ; ils contiennent des chemins et métadonnées, pas le contenu des fichiers. Ils peuvent néanmoins révéler des informations privées.
+
+Les recommandations ne prouvent pas qu’un fichier est inutile. Les emplacements protégés ou illisibles sont signalés. Le cloud concerne les dossiers synchronisés du Finder ; certains contrôles refusent les fichiers non locaux. La Corbeille n’est pas vidée automatiquement. [Limites et réponses pratiques](QUICKSTART.fr.md#à-savoir).
+
+Ce dépôt contient les téléchargements, les guides et les médias publics. **Le code source reste privé.** La gratuité de l’app ne constitue pas une licence de réutilisation du code ou des médias.
