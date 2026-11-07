@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Installation / Getting started
+    url: https://github.com/Raxuis/volumilo-releases/blob/main/QUICKSTART.fr.md
+    about: Read the FR/EN guide and known limits / Lire le guide FR/EN et les limites.
+  - name: Privacy / Confidentialité
+    url: https://volumilo.aqua-cloud-0281.chatgpt.site/fr/#confidentialite
+    about: Feedback is public; never attach personal catalogues or files / Les retours sont publics.

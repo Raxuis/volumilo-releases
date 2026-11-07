@@ -10,6 +10,8 @@ A native macOS app for exploring storage, finding files in a disconnected disk鈥
 
 **[Download Volumilo](https://github.com/Raxuis/volumilo-releases/releases/latest)** 路 [Get started](QUICKSTART.en.md) 路 [Fran莽ais](README.md)
 
+[Official website](https://volumilo.aqua-cloud-0281.chatgpt.site/en/) 路 [Try the beta](BETA.en.md) 路 [Send feedback](SUPPORT.md) 路 [Press kit](PRESSKIT.en.md)
+
 Development release, locally signed and not notarized by Apple: macOS may block opening it. [Installation and verification](QUICKSTART.en.md#install-volumilo).
 
 ![Explore storage in Volumilo using demonstration files](media/analysis-en.png)

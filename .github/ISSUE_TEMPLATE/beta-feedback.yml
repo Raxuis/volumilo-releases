@@ -1,0 +1,54 @@
+name: Beta feedback / Retour bêta
+description: Share your first experience / Partager votre premier essai.
+title: "[Beta] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for trying Volumilo. This report is PUBLIC. Do not include real file paths, catalogues, journals, emails or personal files. / Merci pour l’essai. Ce retour est PUBLIC : aucun chemin réel, catalogue, journal, e-mail ou fichier personnel."
+  - type: input
+    id: version
+    attributes:
+      label: "Volumilo and macOS versions / Versions de Volumilo et macOS"
+    validations:
+      required: true
+  - type: dropdown
+    id: profile
+    attributes:
+      label: "Your use / Votre usage"
+      options:
+        - Everyday Mac user / Utilisation quotidienne
+        - Developer / Développement
+        - External disks or SD cards / Disques externes ou cartes SD
+        - Other / Autre
+    validations:
+      required: true
+  - type: checkboxes
+    id: tried
+    attributes:
+      label: "What did you try? / Qu’avez-vous essayé ?"
+      options:
+        - label: "Install and first launch / Installation et premier lancement"
+        - label: "Scan and navigation / Analyse et navigation"
+        - label: "Add to review selection, without deletion / Ajout à la sélection, sans suppression"
+        - label: "Application storage / Stockage par application"
+        - label: "Offline catalogue / Catalogue hors ligne"
+        - label: "Transfer with disposable copies only / Transfert de copies jetables uniquement"
+  - type: textarea
+    id: confusing
+    attributes:
+      label: "What was confusing or difficult? / Qu’est-ce qui manquait de clarté ?"
+    validations:
+      required: true
+  - type: textarea
+    id: useful
+    attributes:
+      label: "What would make you keep using it? / Qu’est-ce qui vous donnerait envie de la garder ?"
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Before posting / Avant publication"
+      options:
+        - label: "I removed personal data and understand this feedback is public. / J’ai retiré les données personnelles et compris que ce retour est public."
+          required: true

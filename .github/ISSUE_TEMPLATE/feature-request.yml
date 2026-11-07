@@ -1,0 +1,30 @@
+name: Idea / Idée
+description: Explain the problem you want to solve / Expliquer le besoin.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: "Public discussion: use fictitious file names and paths. / Discussion publique : utilisez des noms et chemins fictifs. No personal files or contact details."
+  - type: textarea
+    id: need
+    attributes:
+      label: "What are you trying to do? / Que cherchez-vous à faire ?"
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: "What gets in the way today? / Qu’est-ce qui bloque aujourd’hui ?"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "Your suggestion / Votre proposition"
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Before posting / Avant publication"
+      options:
+        - label: "This request contains no personal data. / Cette demande ne contient pas de données personnelles."
+          required: true

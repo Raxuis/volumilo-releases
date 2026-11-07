@@ -1,0 +1,67 @@
+name: Bug / Problème
+description: Report a reproducible problem / Signaler un problème reproductible.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "This issue is PUBLIC. Remove personal names, paths, account details and files. / Ce retour est PUBLIC : masquez noms, chemins, comptes et fichiers personnels. Use fictitious examples; do not attach a disk catalogue or transfer journal."
+  - type: input
+    id: version
+    attributes:
+      label: "Volumilo version / Version de Volumilo"
+      placeholder: "0.26.2"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: "macOS version / Version de macOS"
+      placeholder: "Example / Exemple : macOS 15.7"
+    validations:
+      required: true
+  - type: dropdown
+    id: context
+    attributes:
+      label: "Where did it happen? / Dans quelle vue ?"
+      options:
+        - Disk or folder scan / Analyse de disque ou dossier
+        - Application storage / Stockage par application
+        - Collector or cleanup / Sélection ou nettoyage
+        - Offline catalogue / Catalogue hors ligne
+        - Verified transfer / Transfert vérifié
+        - Menu bar or settings / Barre de menus ou réglages
+        - Other or unknown / Autre ou inconnu
+    validations:
+      required: true
+  - type: dropdown
+    id: volume
+    attributes:
+      label: "Storage type / Type de stockage"
+      options:
+        - Internal disk / Disque interne
+        - External disk / Disque externe
+        - SD card / Carte SD
+        - Synced Finder folder / Dossier cloud du Finder
+        - Network volume / Volume réseau
+        - Other or unknown / Autre ou inconnu
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Steps and expected result / Étapes et résultat attendu"
+      description: "Use generic names, not your real paths. / Utilisez des noms fictifs."
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Actual result and exact message / Résultat et message exact"
+      description: "Screenshots are optional; hide private information. / Capture facultative, après masquage des informations privées."
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Before posting / Avant publication"
+      options:
+        - label: "I removed personal data and understand this report is public. / J’ai retiré les données personnelles et compris que ce retour est public."
+          required: true
