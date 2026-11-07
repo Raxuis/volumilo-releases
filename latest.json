@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "version": "0.26.1",
-  "build": 44,
+  "version": "0.26.2",
+  "build": 45,
   "minimum_macos": "14.0",
   "architectures": [
     "arm64"
   ],
   "notes": {
-    "en": "Clearer catalogue filters, visible displayed-match counts and 500-result limit, native plural rules, and stable empty-window sizing.",
-    "fr": "Filtres des catalogues plus lisibles, nombre de correspondances et limite de 500 visibles, pluriels natifs et taille stable de la fenêtre vide."
+    "en": "Fixes adding personal files from external disks to the review selection. Volume roots and protected system folders remain blocked.",
+    "fr": "Corrige l’ajout des fichiers personnels des disques externes à la sélection à vérifier. Les racines de disque et dossiers système restent protégés."
   },
-  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.26.1",
-  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.26.1/Volumilo.dmg",
-  "sha256": "db18618eba13bdf193939b93c7ea62ef5c938eb46c1ecc769723157e71ca0b6f"
+  "release_url": "https://github.com/Raxuis/volumilo-releases/releases/tag/v0.26.2",
+  "download_url": "https://github.com/Raxuis/volumilo-releases/releases/download/v0.26.2/Volumilo.dmg",
+  "sha256": "be35bab304ccdcad6d61266c49d8d80d349e296af8a2f41e783578ce7b9a3b8f"
 }
