@@ -27,7 +27,7 @@ Explore what takes up space with a chart and file list. Keep offline catalogues 
 
 ## Official links
 
-- [Product page](https://volumilo.aqua-cloud-0281.chatgpt.site/en/)
+- [Overview and downloads](https://github.com/Raxuis/volumilo-releases/blob/main/README.en.md)
 - [Latest release and checksums](https://github.com/Raxuis/volumilo-releases/releases/latest)
 - [Installation guide and limits](QUICKSTART.en.md)
 - [Try the beta](BETA.en.md)

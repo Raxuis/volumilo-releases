@@ -10,7 +10,7 @@ Une app macOS native pour explorer votre stockage, retrouver un fichier dans le 
 
 **[Télécharger Volumilo](https://github.com/Raxuis/volumilo-releases/releases/latest)** · [Bien démarrer](QUICKSTART.fr.md) · [English](README.en.md)
 
-[Site officiel](https://volumilo.aqua-cloud-0281.chatgpt.site/fr/) · [Essayer la bêta](BETA.fr.md) · [Envoyer un retour](SUPPORT.md) · [Kit de présentation](PRESSKIT.fr.md)
+[Essayer la bêta](BETA.fr.md) · [Envoyer un retour](SUPPORT.md) · [Kit de présentation](PRESSKIT.fr.md)
 
 Version en développement, signée localement et non notariée par Apple : macOS peut en bloquer l’ouverture. [Installation et vérification](QUICKSTART.fr.md#installer-volumilo).
 

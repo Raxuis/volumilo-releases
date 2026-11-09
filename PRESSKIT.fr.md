@@ -27,7 +27,7 @@ Explorez ce qui prend de la place avec un graphique et une liste de fichiers. Ga
 
 ## Liens officiels
 
-- [Page de présentation](https://volumilo.aqua-cloud-0281.chatgpt.site/fr/)
+- [Présentation et téléchargements](https://github.com/Raxuis/volumilo-releases)
 - [Dernière version et empreintes](https://github.com/Raxuis/volumilo-releases/releases/latest)
 - [Guide d’installation et limites](QUICKSTART.fr.md)
 - [Essayer la bêta](BETA.fr.md)
